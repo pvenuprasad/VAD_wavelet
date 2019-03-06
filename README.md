@@ -7,6 +7,7 @@ flexibility in the time-frequency resolution to compute
 robust parameters for VAD decision. We examine the
 performance of the algorithms in clean and various noisy
 environments with varying levels of noise
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
 
 ```main.m ```: To run the two algorithms on all the audio signals and generate the comparison plots.<br />
 ```single_file.m``` : To observe the algorithm in action on a single audio file<br />
