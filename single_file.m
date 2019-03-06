@@ -1,6 +1,6 @@
 clear;close all
 
-t=4610;%[4610:4620 1675:1680];
+t=4610;%choose audio signal;
 [x f]=audioread(strcat('data/raw/train/timit_train',num2str(t,'%05d'),'.wav'));
 vad_truth=load(strcat('data/raw/train/timit_train',num2str(t,'%05d'),'.mat'));%groundtruth for VAD
 M=.03*f;%30ms frames
